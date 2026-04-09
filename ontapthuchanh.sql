@@ -52,3 +52,5 @@ insert into payment(booking_id, payment_method, payment_date, payment_amount) va
                                                                                   (3,'BankTransfer','2025-03-07',1000.0),
                                                                                   (4,'Cash','2025-03-08',480.0),
                                                                                   (5,'Credit Card','2025-03-09',800.0);
+--3. Cậpnhậtdữliệu(6điểm)
+update booking set total_amount = total_amount*0.9;
